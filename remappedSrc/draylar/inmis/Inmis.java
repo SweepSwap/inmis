@@ -4,6 +4,7 @@ import draylar.inmis.config.BackpackInfo;
 import draylar.inmis.config.InmisConfig;
 import draylar.inmis.item.BackpackItem;
 import draylar.inmis.item.EnderBackpackItem;
+import draylar.inmis.mixin.trinkets.TrinketsMixinPlugin;
 import draylar.inmis.network.ServerNetworking;
 import draylar.inmis.ui.BackpackScreenHandler;
 import draylar.omegaconfig.OmegaConfig;

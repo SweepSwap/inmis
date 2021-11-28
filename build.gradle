@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version + "-" + project.minecraft_version
@@ -40,7 +40,7 @@ dependencies {
     include 'com.github.Draylar.omega-config:omega-config-base:1.0.4-beta'
 
     // trinkets
-    modImplementation "dev.emi:trinkets:${project.trinkets_version}"
+    modImplementation "com.github.SweepSwap:trinkets:1.18-SNAPSHOT"
 
     // Shulker Box Tooltip
     modCompileOnly modRuntime("com.misterpemodder:shulkerboxtooltip:${project.shulker_box_tooltip_version}") {

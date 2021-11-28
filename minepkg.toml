@@ -4,16 +4,16 @@ manifestVersion = 0
   type = "mod"
   name = "inmis"
   description = "I need more inventory space!"
-  version = "2.3.1"
+  version = "2.4.0"
   platform = "fabric"
   license = "MIT"
 
 [requirements]
-  minecraft = "*"
-  fabric = "*"
+  minecraft = "1.18-rc3"
+  fabric = "0.12.5"
 
 [dependencies]
-  fabric = "*"
+  fabric = "0.43.1+1.18"
 
 [dev]
   buildCommand = "./gradlew build"
